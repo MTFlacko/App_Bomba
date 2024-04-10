@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "bomba-game",
+    "slug": "bomba-game",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
