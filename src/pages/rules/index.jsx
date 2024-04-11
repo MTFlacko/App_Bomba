@@ -1,11 +1,14 @@
 import React from "react";
 import { Container, Icon, NumberParagraph, Paragraph, ScrollTextRules, Title } from "./styles";
-import { Alert } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+
 
 
 export default function Rules() {
+  const navigation = useNavigation();
+
   function handleNavToStart() {
-    Alert.alert("ícone clicado")
+    navigation.navigate("Start");
   }
 
   return ( <Container>
