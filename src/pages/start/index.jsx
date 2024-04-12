@@ -7,14 +7,14 @@ import { useNavigation } from "@react-navigation/native";
 export default function Start() {
   const navigation = useNavigation();
 
-  const handleNavToPlayAlone = () => {
-    console.log("teste de play alone")
+  function handleNavToPlayAlone() {
+    navigation.navigate("PlayAlone");
   }
-  const handleNavToPlayTogether = () => {
-    console.log("teste de play together")
+  function handleNavToPlayTogether(){
+    navigation.navigate("ToPlayTogether");
   }
 
-  const handleNavToRules = () => {
+  function handleNavToRules() {
     navigation.navigate("Rules");
   }
 
